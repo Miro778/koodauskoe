@@ -4,6 +4,11 @@ import java.util.Arrays;
 
 public class Functions {
     
+    /**
+     * Returns the shortest gap between numbers in an array
+     * @param numberList the array to find the shortest gap from
+     * @return the amount of numbers at the shortest cap as int
+     */
     public static int getShortestGap(int[] numberList) {
         if (numberList.length < 2) return 0; // If there are less than 2 numbers, return 0
 
