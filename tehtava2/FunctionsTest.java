@@ -27,5 +27,14 @@ public class FunctionsTest {
         Assert.assertEquals(2, Functions.getShortestGap(array));
     }
 
+    @Test
+    void testGetShortestGapWithSimilarGapsArray() {
+        int[] array = new int[3];
+        array[0] = 3;
+        array[1] = 5;
+        array[2] = 1;
+        Assert.assertEquals(1, Functions.getShortestGap(array));
+    }
+
     
 }

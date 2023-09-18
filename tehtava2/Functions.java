@@ -6,7 +6,7 @@ public class Functions {
     
     /**
      * Returns the shortest gap between numbers in an array
-     * @param numberList the array to find the shortest gap from
+     * @param numberList the array to find the shortest gap from. This array is also sorted as "side-effect".
      * @return the amount of numbers at the shortest cap as int
      */
     public static int getShortestGap(int[] numberList) {
