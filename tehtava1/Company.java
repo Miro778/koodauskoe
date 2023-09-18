@@ -1,3 +1,5 @@
+package koodauskoe.tehtava1;
+
 public class Company extends LegalEntity {
 
     private String industry;

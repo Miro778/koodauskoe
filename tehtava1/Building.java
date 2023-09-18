@@ -1,3 +1,5 @@
+package koodauskoe.tehtava1;
+
 import java.util.Date;
 import java.util.UUID;
 

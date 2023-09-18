@@ -1,3 +1,5 @@
+package koodauskoe.tehtava1;
+
 import java.util.UUID;
 
 public class LegalEntity {
